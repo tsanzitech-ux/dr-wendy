@@ -504,48 +504,106 @@
         <p class="text-slate-600 max-w-2xl mx-auto">Monthly articles, tips, and insights from Dr. Wendy — supporting families on their journey to better mental health and well-being.</p>
       </div>
 
-      <!-- Blog Post Cards — replace placeholders with actual posts as published -->
+      <!-- Blog Post Cards -->
       <div class="grid md:grid-cols-3 gap-7 fade-in">
 
-        <!-- Blog Post Placeholder 1 -->
+        <!-- Blog Post 1 -->
         <article class="bg-warm-50 rounded-2xl overflow-hidden shadow-sm border border-warm-100 hover:shadow-md transition-shadow flex flex-col">
           <div class="h-44 bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center">
-            <svg class="w-12 h-12 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+            <svg class="w-12 h-12 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
           </div>
           <div class="p-6 flex flex-col flex-1">
-            <span class="inline-block bg-primary-100 text-primary-700 text-xs font-semibold px-2.5 py-1 rounded-full mb-3 self-start">Coming Soon</span>
-            <h3 class="text-lg font-heading text-slate-900 mb-2">First Post Title</h3>
-            <p class="text-slate-600 text-sm leading-relaxed flex-1">Blog posts will appear here monthly. Watch this space for expert insights from Dr. Wendy on child development, mental health, and family wellbeing.</p>
-            <p class="text-xs text-slate-400 mt-4">Month 2026</p>
+            <span class="inline-block bg-primary-100 text-primary-700 text-xs font-semibold px-2.5 py-1 rounded-full mb-3 self-start">Emotional Health</span>
+            <h3 class="text-lg font-heading text-slate-900 mb-2">Raising Emotionally Healthy Children: Simple Strategies Parents Can Use Today</h3>
+            <p class="text-slate-600 text-sm leading-relaxed flex-1">Parents today are navigating school stress, social media pressure, and fast-paced routines, all of which impact a child's mental health. The good news is that emotional well-being is built through small, consistent moments of connection, not perfection.</p>
+            <div class="mt-4 flex items-center justify-between">
+              <p class="text-xs text-slate-400">June 2026</p>
+              <button onclick="openBlogModal(0)" class="text-xs font-medium text-primary-600 hover:text-primary-800 transition-colors">Read more →</button>
+            </div>
           </div>
         </article>
 
-        <!-- Blog Post Placeholder 2 -->
+        <!-- Blog Post 2 -->
         <article class="bg-warm-50 rounded-2xl overflow-hidden shadow-sm border border-warm-100 hover:shadow-md transition-shadow flex flex-col">
           <div class="h-44 bg-gradient-to-br from-warm-100 to-warm-200 flex items-center justify-center">
-            <svg class="w-12 h-12 text-primary-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+            <svg class="w-12 h-12 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
           </div>
           <div class="p-6 flex flex-col flex-1">
-            <span class="inline-block bg-warm-200 text-primary-700 text-xs font-semibold px-2.5 py-1 rounded-full mb-3 self-start">Coming Soon</span>
-            <h3 class="text-lg font-heading text-slate-900 mb-2">Second Post Title</h3>
-            <p class="text-slate-600 text-sm leading-relaxed flex-1">Stay tuned for more articles on navigating anxiety, building resilience, autism support strategies, and raising thriving families.</p>
-            <p class="text-xs text-slate-400 mt-4">Month 2026</p>
+            <span class="inline-block bg-warm-200 text-primary-700 text-xs font-semibold px-2.5 py-1 rounded-full mb-3 self-start">Anxiety</span>
+            <h3 class="text-lg font-heading text-slate-900 mb-2">Childhood Anxiety: Signs, Causes, and Practical Strategies for Parents</h3>
+            <p class="text-slate-600 text-sm leading-relaxed flex-1">Childhood anxiety is one of the most common mental health concerns parents face today. It can show up as worry, irritability, perfectionism, stomach aches, school refusal, or emotional overwhelm.</p>
+            <div class="mt-4 flex items-center justify-between">
+              <p class="text-xs text-slate-400">2026</p>
+              <button onclick="openBlogModal(1)" class="text-xs font-medium text-primary-600 hover:text-primary-800 transition-colors">Read more →</button>
+            </div>
           </div>
         </article>
 
-        <!-- Blog Post Placeholder 3 -->
+        <!-- Blog Post 3 -->
         <article class="bg-warm-50 rounded-2xl overflow-hidden shadow-sm border border-warm-100 hover:shadow-md transition-shadow flex flex-col">
           <div class="h-44 bg-gradient-to-br from-primary-50 to-primary-100 flex items-center justify-center">
-            <svg class="w-12 h-12 text-primary-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+            <svg class="w-12 h-12 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
           </div>
           <div class="p-6 flex flex-col flex-1">
-            <span class="inline-block bg-primary-100 text-primary-700 text-xs font-semibold px-2.5 py-1 rounded-full mb-3 self-start">Coming Soon</span>
-            <h3 class="text-lg font-heading text-slate-900 mb-2">Third Post Title</h3>
-            <p class="text-slate-600 text-sm leading-relaxed flex-1">Subscribe or follow Inner Thoughts on social media to be notified when new posts go live each month.</p>
-            <p class="text-xs text-slate-400 mt-4">Month 2026</p>
+            <span class="inline-block bg-primary-100 text-primary-700 text-xs font-semibold px-2.5 py-1 rounded-full mb-3 self-start">Anxiety</span>
+            <h3 class="text-lg font-heading text-slate-900 mb-2">What Is Childhood Anxiety? Understanding the Brain Behind the Behaviour</h3>
+            <p class="text-slate-600 text-sm leading-relaxed flex-1">Childhood anxiety is the body's alarm system. When a child feels overwhelmed, their brain activates the fight-flight-freeze response — even when the situation isn't dangerous.</p>
+            <div class="mt-4 flex items-center justify-between">
+              <p class="text-xs text-slate-400">2026</p>
+              <button onclick="openBlogModal(2)" class="text-xs font-medium text-primary-600 hover:text-primary-800 transition-colors">Read more →</button>
+            </div>
           </div>
         </article>
 
+        <!-- Blog Post 4 -->
+        <article class="bg-warm-50 rounded-2xl overflow-hidden shadow-sm border border-warm-100 hover:shadow-md transition-shadow flex flex-col">
+          <div class="h-44 bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center">
+            <svg class="w-12 h-12 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
+          </div>
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block bg-warm-200 text-primary-700 text-xs font-semibold px-2.5 py-1 rounded-full mb-3 self-start">Resilience</span>
+            <h3 class="text-lg font-heading text-slate-900 mb-2">Building Resilience in Children: The Science Behind Emotional Strength</h3>
+            <p class="text-slate-600 text-sm leading-relaxed flex-1">Resilience is a child's ability to cope, adapt, and recover from stress. Research shows resilience is not innate — it is built through repeated experiences of safety, connection, and support.</p>
+            <div class="mt-4 flex items-center justify-between">
+              <p class="text-xs text-slate-400">2026</p>
+              <button onclick="openBlogModal(3)" class="text-xs font-medium text-primary-600 hover:text-primary-800 transition-colors">Read more →</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Blog Post 5 -->
+        <article class="bg-warm-50 rounded-2xl overflow-hidden shadow-sm border border-warm-100 hover:shadow-md transition-shadow flex flex-col">
+          <div class="h-44 bg-gradient-to-br from-warm-100 to-warm-200 flex items-center justify-center">
+            <svg class="w-12 h-12 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          </div>
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block bg-primary-100 text-primary-700 text-xs font-semibold px-2.5 py-1 rounded-full mb-3 self-start">Autism Support</span>
+            <h3 class="text-lg font-heading text-slate-900 mb-2">Autism Support Strategies for Families: Practical Tools That Help Children Thrive</h3>
+            <p class="text-slate-600 text-sm leading-relaxed flex-1">Supporting a child with autism begins with understanding how their brain processes the world. Autism is a neurodevelopmental difference, not a behavioural issue.</p>
+            <div class="mt-4 flex items-center justify-between">
+              <p class="text-xs text-slate-400">2026</p>
+              <button onclick="openBlogModal(4)" class="text-xs font-medium text-primary-600 hover:text-primary-800 transition-colors">Read more →</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Blog Post 6 -->
+        <article class="bg-warm-50 rounded-2xl overflow-hidden shadow-sm border border-warm-100 hover:shadow-md transition-shadow flex flex-col">
+          <div class="h-44 bg-gradient-to-br from-primary-50 to-primary-100 flex items-center justify-center">
+            <svg class="w-12 h-12 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+          </div>
+          <div class="p-6 flex flex-col flex-1">
+            <span class="inline-block bg-warm-200 text-primary-700 text-xs font-semibold px-2.5 py-1 rounded-full mb-3 self-start">Family Wellbeing</span>
+            <h3 class="text-lg font-heading text-slate-900 mb-2">Raising Emotionally Thriving Families: Science-Backed Strategies for a Stronger Family Culture</h3>
+            <p class="text-slate-600 text-sm leading-relaxed flex-1">Emotionally thriving families aren't perfect — they cultivate an environment of safety, open communication, and predictable connection that regulates stress and builds long-term resilience.</p>
+            <div class="mt-4 flex items-center justify-between">
+              <p class="text-xs text-slate-400">2026</p>
+              <button onclick="openBlogModal(5)" class="text-xs font-medium text-primary-600 hover:text-primary-800 transition-colors">Read more →</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
       </div>
 
       <div class="text-center mt-10 fade-in">
@@ -706,7 +764,7 @@
         <!-- Contact Form -->
         <div class="fade-in bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
           <!-- Replace the action URL with your Formspree endpoint -->
-          <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-5" id="contactForm">
+          <form action="https://formspree.io/innerthoughtstherapy@gmail.com" method="POST" class="space-y-5" id="contactForm">
             <div>
               <label for="name" class="block text-sm font-medium text-slate-700 mb-1">Full Name</label>
               <input type="text" id="name" name="name" required autocomplete="name"
@@ -782,8 +840,7 @@
               <a href="https://www.youtube.com/@innerthoughtstherapy" target="_blank" rel="noopener noreferrer" aria-label="YouTube" class="w-10 h-10 bg-primary-50 rounded-lg flex items-center justify-center text-primary-600 hover:bg-primary-100 transition-colors">
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
               </a>
-              <!-- Instagram: handle pending from Dr. Wendy -->
-              <a href="#" aria-label="Instagram" class="w-10 h-10 bg-primary-50 rounded-lg flex items-center justify-center text-primary-600 hover:bg-primary-100 transition-colors">
+              <a href="https://www.instagram.com/therapyinnerthoughts" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="w-10 h-10 bg-primary-50 rounded-lg flex items-center justify-center text-primary-600 hover:bg-primary-100 transition-colors">
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
               </a>
             </div>
@@ -916,6 +973,156 @@
     });
   </script>
 
+
+  <!-- Blog Modal -->
+  <div id="blogModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="absolute inset-0 bg-slate-900/60 backdrop-blur-sm" onclick="closeBlogModal()"></div>
+    <div class="relative bg-white rounded-2xl shadow-2xl max-w-2xl w-full max-h-[85vh] overflow-y-auto">
+      <div class="sticky top-0 bg-white border-b border-gray-100 px-6 py-4 flex items-start justify-between gap-4 rounded-t-2xl">
+        <div>
+          <span id="modalTag" class="inline-block bg-primary-100 text-primary-700 text-xs font-semibold px-2.5 py-1 rounded-full mb-2"></span>
+          <h2 id="modalTitle" class="text-xl font-heading text-slate-900 leading-snug"></h2>
+        </div>
+        <button onclick="closeBlogModal()" aria-label="Close" class="flex-shrink-0 w-8 h-8 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center transition-colors mt-1">
+          <svg class="w-4 h-4 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div id="modalBody" class="px-6 py-6 prose prose-slate prose-sm max-w-none text-slate-700 leading-relaxed"></div>
+      <div id="modalDate" class="px-6 pb-6 text-xs text-slate-400"></div>
+    </div>
+  </div>
+
+  <script>
+    const blogPosts = [
+      {
+        tag: "Emotional Health",
+        title: "Raising Emotionally Healthy Children: Simple Strategies Parents Can Use Today",
+        date: "June 2026",
+        body: `<p>Parents today are navigating school stress, social media pressure, and fast-paced routines, all of which impact a child's mental health. The good news is that emotional well-being is built through small, consistent moments of connection, not perfection.</p>
+        <h3>Why Connection Supports Children's Mental Health</h3>
+        <p>Children learn emotional regulation through the adults around them. Naming emotions, slowing transitions, creating predictable routines, and repairing after conflict all help a child feel safe and grounded. These simple habits strengthen emotional resilience and reduce daily overwhelm.</p>
+        <h3>Why Family History Matters</h3>
+        <p>Understanding a family's emotional patterns helps identify a child's sensitivities, strengths, and stress triggers. Epigenetics shows us that environment and relationships shape how children cope, learn, and regulate. When parents understand their family history, they can support their child with clarity and confidence.</p>
+        <h3>Three Quick, Evidence-Based Tips for Parents</h3>
+        <p><strong>1. Create a Calm Corner / Space</strong><br>A quiet, cozy space with a pillow, book, or sensory item helps children reset and regulate.</p>
+        <p><strong>2. Build One Predictable Ritual</strong><br>A nightly check-in, morning affirmation, or weekly walk strengthens connection and emotional safety.</p>
+        <p><strong>3. Use "Name it to Tame it" / Spot the Emotion</strong><br>Labeling emotions helps the brain organise big feelings and reduces meltdowns. It also helps gain insight into how the day was for the kids.</p>
+        <p><em>Your child's emotional health grows through small, consistent moments of connection. You don't need perfection, just presence, curiosity, and a willingness to repair. Every day offers a new chance to support your child's mental well-being.</em></p>`
+      },
+      {
+        tag: "Anxiety",
+        title: "Childhood Anxiety: Signs, Causes, and Practical Strategies for Parents",
+        date: "2026",
+        body: `<p>Childhood anxiety is one of the most common mental health concerns parents face today. It can show up as worry, irritability, perfectionism, stomach aches, school refusal, or emotional overwhelm. Recognising these early signs helps parents support their child before anxiety becomes a daily struggle.</p>
+        <h3>What Causes Childhood Anxiety?</h3>
+        <p>Children experience anxiety for many reasons — school pressure, social stress, sensory overload, transitions, or changes in routine. Neurodivergent children often feel anxiety more intensely because their nervous systems process the world differently. When environments feel unpredictable, the brain shifts into protection mode. Predictability, emotional safety, and connection are powerful tools for reducing anxiety.</p>
+        <h3>How Parents Can Support an Anxious Child</h3>
+        <p>Small, consistent strategies make the biggest difference:</p>
+        <ul>
+          <li>Name the emotion to help the child feel understood</li>
+          <li>Slow transitions to reduce overwhelm</li>
+          <li>Offer co-regulation through calm tone, steady presence, and reassurance</li>
+          <li>Create predictable routines to anchor the child</li>
+          <li>Use visual schedules for children who struggle with uncertainty</li>
+        </ul>
+        <p>These evidence-based strategies support emotional regulation and reduce anxiety symptoms.</p>
+        <h3>When Anxiety Needs Extra Support</h3>
+        <p>If anxiety affects sleep, appetite, school attendance, friendships, or daily functioning, additional professional support may be helpful. Early intervention strengthens resilience and prevents long-term stress patterns.</p>
+        <p><em>Supporting a child with anxiety starts with understanding, connection, and predictable routines. With the right tools, parents can help their child build strong emotional regulation skills and long-term mental well-being.</em></p>`
+      },
+      {
+        tag: "Anxiety",
+        title: "What Is Childhood Anxiety? Understanding the Brain Behind the Behaviour",
+        date: "2026",
+        body: `<p>Childhood anxiety is the body's alarm system. When a child feels overwhelmed, their brain activates the fight-flight-freeze response — even when the situation isn't dangerous. This automatic reaction explains why anxious children may cry, shut down, cling, avoid tasks, or become irritable. Their behaviour is a stress response, not misbehaviour.</p>
+        <h3>Why Anxiety Activates So Quickly</h3>
+        <p>Anxiety is often triggered by sensory overload, school pressure, social stress, routine changes, and separation from caregivers. For neurodivergent children, the nervous system reacts even faster, making everyday situations feel unpredictable or unsafe.</p>
+        <h3>What Happens in the Brain</h3>
+        <p>When anxiety is triggered, the amygdala fires rapidly, stress hormones rise, and the thinking brain temporarily goes offline. This makes it harder for children to reason, follow instructions, or calm themselves. Understanding this process helps parents respond with empathy instead of frustration.</p>
+        <h3>Which Children Are More Sensitive</h3>
+        <p>Children with sensitive nervous systems — due to family history, temperament, neurodivergence, or early stress — often need more predictability, co-regulation, and emotional support to feel safe.</p>
+        <h3>Why This Matters for Parents</h3>
+        <p>Recognising how anxiety works allows parents to support emotional regulation, reduce overwhelm, and build long-term resilience. Small, consistent strategies help children feel safe, understood, and grounded.</p>`
+      },
+      {
+        tag: "Resilience",
+        title: "Building Resilience in Children: The Science Behind Emotional Strength",
+        date: "2026",
+        body: `<p>Resilience is a child's ability to cope, adapt, and recover from stress. Research shows resilience is not innate — it is built through repeated experiences of safety, connection, and support. Neuroscience confirms that the brain is highly plastic, meaning children can strengthen emotional regulation and coping skills over time.</p>
+        <h3>Resilience Is Built, Not Born</h3>
+        <p>Decades of developmental science, including Dr. Ann Masten's work, describe resilience as "ordinary magic" — everyday protective factors that help children thrive. These factors shape the nervous system, reduce stress responses, and support long-term emotional well-being.</p>
+        <h3>The Three Core Resilience Enablers</h3>
+        <p><strong>1. Environmental Enablers</strong><br>A predictable, calm environment lowers stress hormones and helps children feel safe. Key supports include: consistent routines, reduced sensory overload, clear expectations, and supportive school environments. These conditions keep the brain in "learning mode" instead of "survival mode."</p>
+        <p><strong>2. Relational Enablers</strong><br>Strong relationships are the most powerful resilience builders. Research shows that one stable, supportive adult can buffer the effects of stress. Relational enablers include: emotionally attuned caregiving, co-regulation during overwhelm, repair after conflict, and feeling seen, heard, and understood. Children learn resilience through the nervous systems of the adults around them.</p>
+        <p><strong>3. Personal Enablers</strong><br>Personal enablers are the skills children develop through practice, not pressure. These include: emotional regulation, problem-solving, confidence and self-efficacy, flexible thinking, and coping strategies. These internal strengths grow when children experience safety, connection, and opportunities to try again.</p>
+        <h3>How Parents Can Build Resilience Daily</h3>
+        <ul>
+          <li>Name emotions to build emotional awareness</li>
+          <li>Model calm responses</li>
+          <li>Create predictable routines</li>
+          <li>Encourage problem-solving</li>
+          <li>Celebrate effort, not perfection</li>
+          <li>Use co-regulation to help children return to calm</li>
+        </ul>
+        <p><em>Resilience is not something children are born with — it is shaped by their environment, their relationships, and the internal skills they develop over time. When parents create safety, predictability, and connection, children grow into confident, emotionally strong, and adaptable young people.</em></p>`
+      },
+      {
+        tag: "Autism Support",
+        title: "Autism Support Strategies for Families: Practical Tools That Help Children Thrive",
+        date: "2026",
+        body: `<p>Supporting a child with autism begins with understanding how their brain processes the world. Autism is a neurodevelopmental difference, not a behavioural issue. Many autistic children experience sensory overload, communication differences, and difficulty with transitions. When parents understand these patterns, daily life becomes calmer, more predictable, and more supportive.</p>
+        <h3>Why Predictability Reduces Anxiety</h3>
+        <p>Predictability is one of the strongest environmental resilience enablers. Consistent routines help autistic children feel safe and reduce stress. Tools like visual schedules, timers, and step-by-step instructions support smoother transitions and prevent overwhelm.</p>
+        <h3>Building Connection Through Co-Regulation</h3>
+        <p>Connection is a powerful relational resilience enabler. Autistic children often rely on the calm presence of a caregiver to return to regulation. Co-regulation can look like sitting close, slowing your breathing, using a soft voice, or offering a sensory tool. These small moments strengthen trust, emotional safety, and resilience.</p>
+        <h3>Supporting Communication Differences</h3>
+        <p>Communication may look different for autistic children — gestures, AAC devices, scripts, single words, or silence. Parents can support communication by: following the child's lead, using simple concrete language, offering choices, allowing extra processing time, and celebrating all communication attempts.</p>
+        <h3>Sensory Support Strategies</h3>
+        <p>Sensory needs are central to autism. Helpful supports include: noise-reducing headphones, weighted items, movement breaks, calm corners, and predictable sensory routines. Understanding sensory triggers helps prevent meltdowns and supports emotional stability.</p>
+        <h3>When Families Need Extra Support</h3>
+        <p>If sensory overload, communication challenges, or emotional distress begin to affect daily functioning, families may benefit from additional professional guidance. Early support strengthens resilience and helps children thrive at home, school, and in the community.</p>
+        <p><em>Autism support is not about changing a child — it's about understanding their world and creating the conditions where they feel safe, connected, and capable.</em></p>`
+      },
+      {
+        tag: "Family Wellbeing",
+        title: "Raising Emotionally Thriving Families: Science-Backed Strategies for a Stronger Family Culture",
+        date: "2026",
+        body: `<p>Emotionally thriving families aren't perfect — they cultivate an environment of safety, open communication, and predictable connection. Research shows this foundation regulates stress, builds resilience, and supports long-term mental wellbeing.</p>
+        <h3>Core Pillars of an Emotional Culture</h3>
+        <p><strong>Emotional Safety</strong><br>The assurance that children can bring their "whole selves" — including big, messy feelings — without shame. This requires respectful communication, predictable adult responses, and intentional conflict repair ("Let's try that again").</p>
+        <p><strong>Co-Regulation</strong><br>The process where a calm adult stabilises an overwhelmed child's nervous system. It's about presence over pressure — using a warm tone and naming the experience ("This feels big for you") to teach long-term self-regulation.</p>
+        <p><strong>Predictable Rhythms</strong><br>Flexible daily structures — morning anchors, decompression time, bedtime routine — that reduce anxiety by establishing clear expectations.</p>
+        <p><strong>Shared Connections</strong><br>Intentional moments together — Friday family dinners, "highs and lows" check-ins, or weekend walks — that build a deep sense of identity, reduce stress, and reinforce that everyone belongs.</p>
+        <h3>Cultivating Internal Skills</h3>
+        <p>Families nurture emotional literacy and resilience by normalising all feelings. Parents can guide children toward self-awareness, problem-solving, and healthy coping mechanisms by: naming and validating emotions, offering choices ("Do you need space or a hug?"), and modelling flexible thinking and self-regulation.</p>
+        <h3>Knowing When to Seek Help</h3>
+        <p>If conflict or chronic stress begins to disrupt daily life, seeking early professional guidance can strengthen resilience and restore a sense of connection.</p>`
+      }
+    ];
+
+    function openBlogModal(index) {
+      const post = blogPosts[index];
+      document.getElementById('modalTag').textContent = post.tag;
+      document.getElementById('modalTitle').textContent = post.title;
+      document.getElementById('modalBody').innerHTML = post.body;
+      document.getElementById('modalDate').textContent = post.date;
+      const modal = document.getElementById('blogModal');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeBlogModal() {
+      const modal = document.getElementById('blogModal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+      document.body.style.overflow = '';
+    }
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') closeBlogModal();
+    });
+  </script>
 </body>
 </html>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
