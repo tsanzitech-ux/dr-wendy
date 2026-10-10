@@ -810,7 +810,8 @@
               <p id="messageHelp" class="text-xs text-slate-500 mt-1.5 leading-relaxed">A short outline is enough at this stage. Please avoid sharing detailed personal or medical information here.</p>
             </div>
             <div id="formError" role="alert" class="bg-red-50 border border-red-200 text-red-800 text-sm rounded-xl px-4 py-3" hidden>
-              Sorry, your message could not be sent. Please try again, or email <a href="mailto:innerthoughtstherapy@gmail.com" class="underline underline-offset-2 font-medium break-words">innerthoughtstherapy@gmail.com</a> directly.
+              <p>Sorry, the form could not send your message. You can send it by email instead. Your details and message will be copied into a new email to <span class="font-medium break-words">innerthoughtstherapy@gmail.com</span>.</p>
+              <a id="mailtoFallback" href="mailto:innerthoughtstherapy@gmail.com" class="mt-3 inline-flex items-center justify-center min-h-[40px] px-5 rounded-full bg-white border border-red-300 text-red-800 font-medium hover:bg-red-100 transition-colors">Send by email instead</a>
             </div>
             <button type="submit" id="submitBtn"
               class="w-full bg-primary-600 text-white font-medium py-3 rounded-full hover:bg-primary-700 transition-colors shadow-md hover:shadow-lg disabled:opacity-60 disabled:cursor-wait">
@@ -993,6 +994,20 @@
         successMsg.hidden = false;
         successMsg.focus();
       } catch (err) {
+        // Pre-fill a fallback email with what the visitor typed, so nothing is lost
+        const f = new FormData(form);
+        const body = [
+          'Name: ' + (f.get('name') || ''),
+          'Email: ' + (f.get('email') || ''),
+          'Phone: ' + (f.get('phone') || ''),
+          'Based in: ' + (f.get('location') || ''),
+          'Preferred reply: ' + (f.get('preferred_contact') || ''),
+          '',
+          f.get('message') || ''
+        ].join('\n');
+        document.getElementById('mailtoFallback').href = 'mailto:innerthoughtstherapy@gmail.com'
+          + '?subject=' + encodeURIComponent('Website enquiry — Inner Thoughts Therapy')
+          + '&body=' + encodeURIComponent(body);
         errorMsg.hidden = false;
         submitBtn.disabled = false;
         submitBtn.textContent = 'Send Message';
