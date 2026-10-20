@@ -1,0 +1,22 @@
+# Netlify redirects — https://docs.netlify.com/routing/redirects/
+#
+# /brain-train : "Buy" link for Laura's Brain Train Coloring Book.
+# Sends each visitor to the Amazon store for their country (Netlify GeoIP).
+# Rules are read top to bottom; the first match wins. The last line is the
+# default for every other country (including South Africa and Zimbabwe),
+# since amazon.com ships internationally.
+# Stores listed are the Amazon marketplaces where KDP sells paperbacks.
+# Short link to share on social media: https://innerthoughtstherapy.health/brain-train
+
+/brain-train  https://www.amazon.co.uk/dp/B0HN9FR1FC   302  Country=gb,ie,im,je,gg
+/brain-train  https://www.amazon.com.au/dp/B0HN9FR1FC  302  Country=au,nz
+/brain-train  https://www.amazon.ca/dp/B0HN9FR1FC      302  Country=ca
+/brain-train  https://www.amazon.de/dp/B0HN9FR1FC      302  Country=de,at,ch,li,lu
+/brain-train  https://www.amazon.fr/dp/B0HN9FR1FC      302  Country=fr,be,mc
+/brain-train  https://www.amazon.es/dp/B0HN9FR1FC      302  Country=es,pt,ad
+/brain-train  https://www.amazon.it/dp/B0HN9FR1FC      302  Country=it,sm,va
+/brain-train  https://www.amazon.nl/dp/B0HN9FR1FC      302  Country=nl
+/brain-train  https://www.amazon.se/dp/B0HN9FR1FC      302  Country=se
+/brain-train  https://www.amazon.pl/dp/B0HN9FR1FC      302  Country=pl
+/brain-train  https://www.amazon.co.jp/dp/B0HN9FR1FC   302  Country=jp
+/brain-train  https://www.amazon.com/dp/B0HN9FR1FC     302

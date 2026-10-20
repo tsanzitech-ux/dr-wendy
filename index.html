@@ -38,6 +38,22 @@
     ]
   }
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "name": "Laura's Brain Train Coloring Book: A story to help kids manage their worries and find their calm",
+    "author": { "@type": "Person", "name": "Wendy M. Mupaku", "honorificPrefix": "Dr.", "url": "https://innerthoughtstherapy.health/" },
+    "illustrator": { "@type": "Person", "name": "Beatriz Lima Neves" },
+    "bookFormat": "https://schema.org/Paperback",
+    "numberOfPages": 29,
+    "inLanguage": "en",
+    "typicalAgeRange": "3-8",
+    "image": "https://innerthoughtstherapy.health/src/images/lauras-brain-train-cover.jpg",
+    "url": "https://innerthoughtstherapy.health/#book",
+    "sameAs": "https://www.amazon.com/dp/B0HN9FR1FC"
+  }
+  </script>
 
   <style>
     [hidden] { display: none !important; }
@@ -191,34 +207,48 @@
     </div>
   </section>
 
-  <!-- ========== NEW BOOK: LAURA'S BRAIN TRAIN ========== -->
+  <!-- ========== NEW BOOK: LAURA'S BRAIN TRAIN ==========
+       All "buy" links point to /brain-train, which _redirects sends to the visitor's own
+       Amazon store by country (default: amazon.com). Edit store mappings in _redirects. -->
   <section id="book" class="py-16 sm:py-24 bg-primary-50" aria-labelledby="book-title">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="fade-in grid md:grid-cols-[auto_1fr] gap-12 md:gap-16 items-center">
         <div class="flex justify-center">
-          <a href="https://www.amazon.com/dp/B0HN9FR1FC" target="_blank" rel="noopener noreferrer" tabindex="-1" class="relative block group">
+          <a href="/brain-train" target="_blank" rel="noopener noreferrer" tabindex="-1" class="relative block group">
             <span class="absolute -inset-3 block bg-primary-200/60 rounded-2xl rotate-3" aria-hidden="true"></span>
             <img
               src="src/images/lauras-brain-train-cover.jpg"
-              width="265" height="342"
+              width="600" height="776"
               alt="Cover of Laura's Brain Train Coloring Book: a smiling girl waves in a flower meadow in front of a colourful train and a rainbow"
-              class="relative block w-52 sm:w-60 h-auto rounded-lg shadow-xl transition-transform duration-300 group-hover:-translate-y-1"
+              class="relative block w-52 sm:w-64 h-auto rounded-lg shadow-xl transition-transform duration-300 group-hover:-translate-y-1"
               loading="lazy"
             >
           </a>
         </div>
-        <div class="text-center md:text-left">
+        <div>
           <p class="text-primary-600 font-medium text-sm tracking-wide uppercase mb-3">New Release &middot; Children's Book</p>
           <h2 id="book-title" class="text-3xl sm:text-4xl font-heading text-slate-900 mb-3">Laura's Brain Train Coloring Book</h2>
-          <p class="text-primary-700 font-medium text-lg mb-5">A story to help kids manage their worries and find their calm.</p>
-          <p class="text-slate-600 leading-relaxed mb-8 max-w-xl mx-auto md:mx-0">Wendy's new book for children pairs a gentle story with pages to colour. It helps young readers make sense of their worries and find their way back to calm, and gives parents and caregivers a playful way to talk about big feelings together.</p>
-          <div class="flex flex-col sm:flex-row items-center gap-3 sm:gap-5 justify-center md:justify-start">
-            <a href="https://www.amazon.com/dp/B0HN9FR1FC" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-primary-600 text-white font-medium px-8 py-3 rounded-full hover:bg-primary-700 transition-colors shadow-md hover:shadow-lg">
+          <p class="text-primary-700 font-medium text-lg mb-2">A story to help kids manage their worries and find their calm.</p>
+          <p class="text-sm text-slate-500 mb-5">By Dr. Wendy M. Mupaku &middot; Illustrated by Beatriz Lima Neves</p>
+          <p class="text-slate-600 leading-relaxed mb-5">A gentle, science-backed guide that helps children understand how their brains work and stay in the driver's seat of their emotions. Through Wally the Worrier and Tally the Thinker, children learn that they aren't "bad": their Brain Train just needs a little help getting back to the station.</p>
+          <p class="text-sm font-medium text-slate-800 mb-2">Inside the book</p>
+          <ul class="space-y-2 text-sm text-slate-600 leading-relaxed mb-6" role="list">
+            <li class="flex items-start gap-2"><span class="text-primary-500 mt-0.5" aria-hidden="true">&#10003;</span><span><strong class="font-medium text-slate-800">A social story</strong> that validates a child's experience of anxiety and big feelings</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary-500 mt-0.5" aria-hidden="true">&#10003;</span><span><strong class="font-medium text-slate-800">Science made simple:</strong> a guide for parents and educators that explains the amygdala (Wally) and prefrontal cortex (Tally) without the jargon</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary-500 mt-0.5" aria-hidden="true">&#10003;</span><span><strong class="font-medium text-slate-800">Hands-on activities</strong> such as the Super Stop Button and F.A.C.T. Check, to help children move from panic to peace</span></li>
+          </ul>
+          <ul class="flex flex-wrap gap-2 mb-8" role="list" aria-label="Book details">
+            <li class="bg-white text-primary-800 text-xs font-medium px-3 py-1 rounded-full border border-primary-200">Paperback</li>
+            <li class="bg-white text-primary-800 text-xs font-medium px-3 py-1 rounded-full border border-primary-200">29 pages</li>
+            <li class="bg-white text-primary-800 text-xs font-medium px-3 py-1 rounded-full border border-primary-200">Ages 3&ndash;8</li>
+          </ul>
+          <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
+            <a href="/brain-train" target="_blank" rel="noopener noreferrer" class="self-start inline-flex items-center gap-2 bg-primary-600 text-white font-medium px-8 py-3 rounded-full hover:bg-primary-700 transition-colors shadow-md hover:shadow-lg">
               Buy on Amazon
               <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
               <span class="sr-only">(opens in a new tab)</span>
             </a>
-            <span class="text-sm text-slate-500">Available now on Amazon</span>
+            <span class="text-sm text-slate-500">Opens your local Amazon store where available</span>
           </div>
         </div>
       </div>
@@ -661,18 +691,18 @@
       <!-- Store Items — Dr. Wendy to add products as available -->
       <div class="grid sm:grid-cols-2 xl:grid-cols-4 gap-6 fade-in">
 
-        <!-- Product 1 — Laura's Brain Train Coloring Book (live on Amazon) -->
+        <!-- Product 1 — Laura's Brain Train Coloring Book (live on Amazon, via /brain-train) -->
         <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-primary-200 hover:shadow-md transition-shadow flex flex-col">
-          <a href="https://www.amazon.com/dp/B0HN9FR1FC" target="_blank" rel="noopener noreferrer" tabindex="-1" class="block h-48 bg-primary-50 p-4">
-            <img src="src/images/lauras-brain-train-cover.jpg" width="265" height="342" alt="Cover of Laura's Brain Train Coloring Book" class="w-full h-full object-contain drop-shadow-md" loading="lazy">
+          <a href="/brain-train" target="_blank" rel="noopener noreferrer" tabindex="-1" class="block h-48 bg-primary-50 p-4">
+            <img src="src/images/lauras-brain-train-cover.jpg" width="600" height="776" alt="Cover of Laura's Brain Train Coloring Book" class="w-full h-full object-contain drop-shadow-md" loading="lazy">
           </a>
           <div class="p-5 flex flex-col flex-1">
             <span class="inline-block bg-primary-600 text-white text-xs font-semibold px-2.5 py-1 rounded-full mb-3 self-start">New &middot; Children's Book</span>
             <h3 class="text-base font-heading text-slate-900 mb-1">Laura's Brain Train Coloring Book</h3>
-            <p class="text-slate-600 text-sm leading-relaxed flex-1">Wendy's story-based colouring book to help children manage their worries and find their calm.</p>
+            <p class="text-slate-600 text-sm leading-relaxed flex-1">Dr. Wendy's story and activity book helps children understand their worries and find their calm. Paperback, ages 3&ndash;8.</p>
             <div class="flex items-center justify-between gap-3 mt-4 pt-4 border-t border-gray-100">
               <span class="text-primary-700 font-semibold text-sm whitespace-nowrap">On Amazon</span>
-              <a href="https://www.amazon.com/dp/B0HN9FR1FC" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 bg-primary-600 text-white text-sm font-medium px-4 py-2 rounded-full hover:bg-primary-700 transition-colors whitespace-nowrap">
+              <a href="/brain-train" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 bg-primary-600 text-white text-sm font-medium px-4 py-2 rounded-full hover:bg-primary-700 transition-colors whitespace-nowrap">
                 Buy Now
                 <svg class="w-3.5 h-3.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
                 <span class="sr-only">Laura's Brain Train Coloring Book on Amazon (opens in a new tab)</span>
